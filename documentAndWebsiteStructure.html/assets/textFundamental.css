@@ -1,0 +1,49 @@
+body{
+	background-color: lightgray;
+}
+
+h1{
+	color:mintcream;
+}
+
+h2 {
+	color: deepskyblue;
+}
+
+h3 {
+	color: dodgerblue;
+}
+
+h4 {
+	color: blue;
+}
+
+h5 {
+	color: mediumblue;
+}
+
+h6 {
+	color: navy;
+}
+
+ul {
+	color: coral;
+}
+
+li {
+	color: whitesmoke;
+}
+
+em {
+	color:	peru;
+}
+
+strong {
+	color:	peru;
+}
+
+p {
+	color: darkslateblue;
+}
+
+

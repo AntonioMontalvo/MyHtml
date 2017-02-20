@@ -1,0 +1,65 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: mintcream;
+}
+
+h2 {
+    color: deepskyblue;
+}
+
+h3 {
+    color: dodgerblue;
+}
+
+h4 {
+    color: blue;
+}
+
+h5 {
+    color: mediumblue;
+}
+
+h6 {
+    color: navy;
+}
+
+ul {
+    color: coral;
+}
+
+li {
+    color: whitesmoke;
+}
+
+em {
+    color: peru;
+}
+
+strong {
+    color: peru;
+}
+
+p {
+    color: darkslateblue;
+    
+    margin-right: 5px;
+}
+
+#iframe {
+    margin-left: 35px;
+}
+
+video {
+    margin-left: 17px;
+}
+
+audio {
+    margin-left: 35px;
+}
+
+#kids {
+	margin-left: 35px;
+}

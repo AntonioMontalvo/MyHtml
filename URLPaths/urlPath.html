@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Antonio Montalvo">
+    <meta name="description" content="A quick primer on URL and Paths. A URL, or Uniform Resource Locator is simply a string of text that defines where something is located on the Web. URLs use paths to find files. Paths specify where in the filesystem the file you are interested in is located">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/textFundamental.css">
+    <title>Uniform Record Locator and Paths</title>
+</head>
+
+<body>
+    <h1>Understanding URLs nad Paths</h1>
+    <p>The root of this directory structure is URLPaths. Inside this directory we have this file urlPath.html and another called contacts.html. Inside this root directory there are also two other directories -pdfs and projects- pdfs contains SolarSystem.pdf and projects index.html.</p>
+    <br>
+    <h2>A link to a file in the same directory</h2>
+    <a href="contacts.html" target="_blank" class="link1">This link points to contacts.html. No further actions is needed since as it is in the same directory as the current file</a>
+    <br>
+    <h2>Moving down into subdirectory</h2>
+    <p>Lets point to out index.html inside the projects directory. This is done by specifying the directory's name, then a forward slash, then the name of the file. so the URL you would use is projects/index.html</p>
+    <a href="projects/index.html" target="_blank" class="link2">To "Our Solar System In A Nutshell"</a>
+    <h2>Moving back up into parent directories</h2>
+    <p>Inside the projects directory their is a link that goes from the index.html to the SolarSysttem.pdf inside the pdfs directory. You'd have to go up a directory level, then back down into the pdf directory. "Go up a directory" is indicated using two dots — .. — so the URL you would use is ../pdfs/SolarSystem.pdf</p>
+</body>
+
+</html>

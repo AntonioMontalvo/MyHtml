@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Antonio Montalvo">
+    <meta name="description" content=" Hyperlinks are what makes the Web a Web — they allow us to link our documents to any other document (or other resource) we want to, we can also link to specific parts of documents.  A URL can point to HTML files, text files, images, text documents, video and audio files, and anything else that can live on the Web.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/textFundamental.css">
+    <title>Hyperlinks</title>
+</head>
+
+<body>
+    <h1 id="top">Anatomy of a link</h1>
+    <h2>I'm creating a link Google</h2>
+    <a href="https://www.google.com" title="Where you search for pretty much everything" target="_blank" class="link1">This is your text link to the Google website. It will open in a new tab</a>
+    <h2>Block level links</h2>
+    <p>A URL can point to HTML files, text files, images, text documents, video and audio files, and anything else that can live on the Web</p>
+    <a href="https://www.google.com" title="Where you search almost anything" target="_blank" class="link2">This image links to Google
+        <br><img src="assets/google.png" alt="The google Logo">
+    </a>
+    <h2>Document fragments; Links to another part of the same page</h2>
+    <a href="#ship" class="link3">If you click me, I will take you to an image of a ship
+    <br>
+    <img src="assets/redwoods.jpg" alt="Tall Redwoods">
+    </a>
+    <br>
+    <a href="#top" class="link4">But if you click me, I'll take you up to the top
+    <br>
+      <img id="ship" src="assets/ship.jpeg" alt="Old vessel">  
+    </a>
+</body>
+
+</html>

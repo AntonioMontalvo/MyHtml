@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Antonio Montalvo">
+    <meta name="description" content="Learnign how HTML gives structure and meaning (semantics) to a page. We cover The basics: Headings and paragraphs, lists (ordered and unordered), and emphasis and importance">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/textFundamental.css">
+    <title>HTML Text fundamentals</title>
+</head>
+
+<body>
+    <h1>Structured content makes the reading experience easier and more enjoyable.</h1>
+    <p>I am a paragraph, oh yes I am.</p>
+    <p>There are six heading elements. h1 to h6. Each element represents a different level of content in the document</p>
+    <h1>I am h1. The main heading. The first level of content.</h1>
+    <p>In this presentation we want to represent al 6 possible headings with one paragraph in between heading</p>
+    <h2>I am h2. I represent the subheading</h2>
+    <p>You just need to bear in mind a few best practices as you create such structures:</p>
+    <h3>I am h3. I represent th sub-subheading</h3>
+    <p>Preferably you should just use a single h1 per page — this is the top level heading, and all others sit below this in the hierarchy.</p>
+    <h4>I am h4. I represent the sub-sub-subheading</h4>
+    <p>Make sure you use the headings in the correct order in the hierarchy. Don't use h3's to represent subheadings, followed by h2's to represent sub-subheadings — that doesn't make sense and will lead to weird results.</p>
+    <h5>I am h5. I represent the sub-sub-sub-subheading</h5>
+    <p>Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary</p>
+    <h6>I am h6. I represent the sub-sub-sub-sub-subheading</h6>
+    <p> Documents with many levels (i.e. a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible.</p>
+    <h2>The need for Semantics</h2>
+    <p>By definition semantics refers to the meaning of a word, phrase, sentence or text. In HTML we need to make sure we are using the correct elements, giving our content the correct meaning, function, or appearance. In this context the h1 element is also a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page. Tts semantic value will be used in multiple ways, for example by search engines and screen readers</p>
+    <h2>Lists</h2>
+    <h3>Unordered list</h3>
+    <p>Unordered lists are used to mark up lists of items for which the order of the items doesn't matter</p>
+    <ul>
+        <li>eggs</li>
+        <li>bread</li>
+        <li>tomatoes</li>
+        <li>milk</li>
+    </ul>
+    <h3>Ordered lists are lists in which the order of the items does matter. Here we show the order in which this tutorial is presented</h3>
+    <ol>
+        <li>Introduction to HTML overview</li>
+        <li>Getting started with HTML</li>
+        <li>What's in the head? Metadata in HTML</li>
+        <li>HTML text fundamentals</li>
+        <li>Creating hyperlinks</li>
+        <li>Advanced text formatting</li>
+        <li>Advanced text formatting</li>
+        <li>Document and website structure</li>
+        <li>Debugging HTML</li>
+        <li>Assessment: Marking up a letter</li>
+        <li>Assessment: Structuring a page of content</li>
+    </ol>
+    <h3>Nested lists. It is perfectly ok to nest one list inside another one.</h3>
+    <ol>
+        <li>Learn HTML text fundamentals</li>
+        <li>Apply concepts</li>
+        <ul>
+            <li>Like it's been done here</li>
+            <li>Or try later in another file</li>
+        </ul>
+        <li>Move to next section Emphasis and Importance</li>
+    </ol>
+    <h2>Emphasis and Importance</h2>
+    <p>In human language, we often emphasise certain words to alter the meaning of a sentence, and we often want to mark certain words as important or different in some way.</p>
+    <h3>Emphasis</h3>
+    <p>When we want to add emphasis in spoken language, we stress certain words, subtly altering the meaning of what we are saying. In HTML we use the <em> (emphasis) </em> element to mark up such instances. </p>
+    <h3>Strong importance</h3>
+    <p>To emphasize important words, we tend to stress them in spoken language and bold them in written language.In HTML we use the <strong> (strong importance) </strong> element to mark up such instances</p>
+    <h3>Italic, bold, underline</h3>
+    <p>Elements like this, which only affect presentation and not semantics, are known as presentational elements and should no longer be used, because as we've seen before, semantics is so important to accessibility, SEO, etc.</p>
+</body>
+
+</html>

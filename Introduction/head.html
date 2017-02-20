@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- The lang attribute is used to set the language of the page. This piece of information is useful for SEO and for people using screen readers -->
+
+<head>
+    <!-- The head's job is to contain metadata about the document. HTML has an "official" way of adding metadata to a document — the <meta> element -->
+    <meta charset="utf-8">
+    <!-- charset="utf-8" simply specifies the document's character encoding — the character set that the document is permitted to use. utf-8 is a universal character set that includes pretty much any character from any human language. This means that your web page will be able to handle displaying any language -->
+    <meta name="author" content="Antonio Montalvo">
+    <meta name="description" content="Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines (such activities are termed Search Engine Optimization, or SEO.)">
+    <!-- basic favicon. To further enrich your site design, you can add references to custom icons in your metadata, and these will be displayed in certain contexts. -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Applying CSS and JavaScript to HTML -->
+    <!-- The <link> element always goes inside the head of your document. This takes two attributes, rel="stylesheet", which indicates that it is the document's stylesheet, and href, which contains the path to the stylesheet file -->
+    <link rel="stylesheet" href="assets/my-css-file.css">
+    <title>Head of an HTML document</title>
+</head>
+
+<body>
+    <h1>LEARNING ABOUT THE HEAD OF AN HTML DOCUMENT</h1>
+    <p>Japanese example: ご飯が熱い。</p>
+    <!-- The <script> element does not have to go in the head; in fact, often it is better to put it at the bottom of the document body (just before the closing </body> tag), to make sure that all the HTML content has been read by the browser before it tries to apply JavaScript to it (if JavaScript tries to access an element that doesn't yet exist, the browser will throw an error.) -->
+    <script src="my-js-file.js"></script>
+</body>
+
+</html>

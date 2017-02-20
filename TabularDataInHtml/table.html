@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Antonio Montalvo">
+    <meta name="description" content="An explanation on contructing tables; We cover the following HTML reference elements associated with table: table, tbody, td, th, tr, thead, tfoot, col. Basic CSS is applied.">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="assets/normalize.css"> -->
+    <link rel="stylesheet" href="assets/textFundamental.css">
+    <title>Creating a data table</title>
+</head>
+<!-- The <table> element represents tabular data -->
+<!-- The <caption> element represents the title of a table. -->
+<!-- The <tbody> element groups one or more <tr> elements as the body of a <table> element. -->
+<!-- The <th> element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes. The scope attribute defines the cell with one of the following values:
+    row:  The header relates to all cells of the row it belongs to.
+    col: The header relates to all cells of the column it belongs to.
+    rowgroup: The header belongs to a rowgroup and relates to all of its cells. These cells can be placed to the right or the left of the header, depending on the value of the dir attribute in the <table> element.
+    colgroup: The header belongs to a colgroup and relates to all of its cells.-->
+<!-- The <td> element defines a cell of a table that contains data. -->
+
+<body>
+    <header>
+        <h1>This is what it takes to express information  via a two-dimensional data table.</h1>
+    </header>
+    <main>
+        <table>
+            <caption>
+                <h2>Commercial Aircraft Manufacturing Companies and Models</h2></caption>
+            <thead>
+                <tr>
+                    <th scope="col">Airbus</th>
+                    <th scope="col">Boeing</th>
+                    <th scope="col">Bombardier</th>
+                    <th scope="col">Embraer</th>
+                    <th scope="col">Tupolev</th>
+                    <th scope="col">Cesna</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A300</td>
+                    <td>737</td>
+                    <td>C Series</td>
+                    <td>EMB 110 Bandeirante</td>
+                    <td>Tu-104 "Camel"</td>
+                    <td>172</td>
+                </tr>
+                <tr>
+                    <td>A310</td>
+                    <td>747</td>
+                    <td>CRJ Series</td>
+                    <td>EMB 120 Brasilia</td>
+                    <td>Tu-114 Rossiya "Cleat"</td>
+                    <td>182</td>
+                </tr>
+                <tr>
+                    <td>A318</td>
+                    <td>767</td>
+                    <td>Q Series</td>
+                    <td>FMA CBA 123 Vector</td>
+                    <td>Tu-116</td>
+                    <td>206</td>
+                </tr>
+                <tr>
+                    <td>A319</td>
+                    <td>777</td>
+                    <td>null</td>
+                    <td>ERJ 140</td>
+                    <td>Tu-124 "Cookpot"</td>
+                    <td>208</td>
+                </tr>
+                <tr>
+                    <td>A320</td>
+                    <td>787</td>
+                    <td>null</td>
+                    <td>ERJ145</td>
+                    <td>Tu-134 "Crusty"</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>A321</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>J170</td>
+                    <td>Tu-144 "Charger"</td>
+                    <td>510</td>
+                </tr>
+                <tr>
+                    <td>A330</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>175</td>
+                    <td>Tu-145 "Careless"</td>
+                    <td>525</td>
+                </tr>
+                <tr>
+                    <td>A340</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>190</td>
+                    <td>Tu-204</td>
+                    <td>560XL</td>
+                </tr>
+                <tr>
+                    <td>A350</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>195</td>
+                    <td>Tu-214</td>
+                    <td>680</td>
+                </tr>
+                <tr>
+                    <td>A380</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>Tu-224</td>
+                    <td>750</td>
+                </tr>
+                <tr>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>175-E2</td>
+                    <td>Tu-234</td>
+                    <td>null</td>
+                </tr>
+                <tr>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>190-E2</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr>
+                <tr>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>null</td>
+                    <td>195-E2</td>
+                    <td>null</td>
+                    <td>null</td>
+                </tr>
+                <tfoot>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tfoot>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>©Copyright 2017 by Antonio Montalvo</p>
+    </footer>
+</body>
+
+</html>
